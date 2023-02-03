@@ -1,13 +1,8 @@
-# Sample Hardhat Project
+Version 1.0
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Create a new directory in your Github repo called v1.0 and initialize a new hardhat project.
+Create a new contract called BasicDutchAuction.sol that implements a Dutch auction called as described below.
+Write test cases to thoroughly test your contracts. Generate a Solidity coverage report and commit it to your repository.
 
-Try running some of the following tasks:
+![2023-02-02 (1)](https://user-images.githubusercontent.com/73957962/216490110-00f08d65-817c-48cf-ab40-4aa008714fc7.png)
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
